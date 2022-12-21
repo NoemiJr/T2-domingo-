@@ -17,6 +17,8 @@ public class CPs {
     private FacePage facePage;
     private TelefonoPage telefonoPage;
 
+    private BuscarPage buscarPage;
+
     private ApplePage applePage;
 
 //------------------------------------------
@@ -38,6 +40,7 @@ public class CPs {
         facePage = new FacePage(loginPage.getDriver());
         telefonoPage = new TelefonoPage(loginPage.getDriver());
         applePage = new ApplePage(loginPage.getDriver());
+        buscarPage = new BuscarPage(homePage.getDriver());
 
 //---------------------------------------------------------------
         homePage.cargarPagina(url);
@@ -77,7 +80,12 @@ public class CPs {
         loginPage.telefonosesion();
         telefonoPage.telefonoIniciar("3804531454");
 
-
 }
+    @Test
+    public void CP001_Buscar_Genero() throws InterruptedException {
+        homePage.irABuscar();
+        buscarPage.escribirBuscador("Hip hop");
+        Assert.assertEquals(buscarPage.obtenerGenero(),"Hip hop");
+    }
 }
 

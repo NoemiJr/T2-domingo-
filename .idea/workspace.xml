@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ac9b2d-531a-4c88-b4cc-b39ce59eaa59" name="Changes" comment="se actualiza pom. Se agrega dependencia de Selenium V 3.141.59">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ApplePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TelefonoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CPs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BuscarPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CPs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CPs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,25 @@
       <recent name="C:\Users\jesica.rodriguez\IdeaProjects\DemoFrameworkBootcampMio\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CPs.CP003_Iniciar_Sesion_Teléfono">
+  <component name="RunManager" selected="TestNG.CPs.CP001_Buscar_Genero">
+    <configuration name="CPs.CP001_Buscar_Genero" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFrameworkBootcampMio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP001_Buscar_Genero" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPs.CP001_Iniciar_Sesion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoFrameworkBootcampMio" />
       <extension name="coverage">
@@ -117,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CPs.CP001_Buscar_Genero" />
         <item itemvalue="TestNG.CPs.CP003_Iniciar_Sesion_Teléfono" />
         <item itemvalue="TestNG.CPs.CP002_Iniciar_Sesion_Facebook" />
         <item itemvalue="TestNG.CPs.CP001_Iniciar_Sesion" />
